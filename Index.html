@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="amazon_style.css">
+</head>
+
+<body>
+    <header>
+        <!--  navbar Start  -->
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="nav-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-country border">
+                <div class="coun-icon">
+                </div>
+                <div class="count-option">
+                    <select class="count-lang">
+                        <option style="color: black;">EN</option>
+                        <option style="color: black;">HN</option>
+                        <option style="color: black;">KN</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="nav-signin border">
+                <p class="para1">Hello,sign In</p>
+                <div>
+                    <select class="count-lang">
+                        <option style="color: black;">Account & Lists</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="nav-order border">
+                <p>Returns</p>
+                <div class="order">&Orders</div>
+            </div>
+
+            <div class="nav-cart border">
+
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div>
+                    <p class="cart-para">Cart</p>
+                </div>
+
+            </div>
+        </div>
+        <!--  navbar End  -->
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+            <div class="panel-deals">
+                <p>Shop deals in electronics</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section">
+    
+   <div class="image-container">
+     <img class="mySlides" src="hero_image.jpg" style="width:100%">
+     <img class="mySlides" src="hero_image2.jpg" style="width:100%">
+     <img class="mySlides" src="hero_image3.jpg" style="width:100%">
+     <img class="mySlides" src="hero_image5.jpg" style="width:100%">
+  
+     <button class="display-left" onclick="plusDivs(-1)"><i class="fa-solid fa-chevron-left fa-2xl"></i></button>
+     <button class="display-right" onclick="plusDivs(1)"><i class="fa-solid fa-chevron-right fa-2xl"></i></button>
+    </div>
+    <div class="hero-msg">
+        <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+            delivery. <a> here to go to amazon.in </a></p>
+    </div>
+     
+    </div>
+
+
+
+    <!-- shop section part1 -->
+
+    <div class="shop-section">
+        <div class="box">
+            <div class="box-content">
+                <h2>Health & Personal Care</h2>
+                <div class="box-image" style="background-image: url('box1.jpg');"></div>
+                <a>See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Gadgets and Electronics</h2>
+                <div class="box-image" style="background-image: url('box2.jpg');"></div>
+                <a>See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Deals & Promotions</h2>
+                <div class="box-image" style="background-image: url('box3.jpg');"></div>
+                <a>See More</a>
+            </div>
+        </div>
+
+        <div class="box-sign">
+            <div class="box-content">
+                <div class="sign-in">
+                    <h2>Sign in for the bext experience</h2>
+                    <button>Sign in Securely</button>
+                </div>
+                <div class="million-prod" style="background-image: url('product.jpg');"></div>
+            </div>
+        </div>
+
+        <!-- shop section second2  START -->
+
+        <div class="box">
+            <div class="box-content1">
+                <h2>Gaming accessories</h2>
+                <div class="main-box3">
+                    <div class="box2">
+                        <div class="box-image1" style="background-image: url('headphone.jpg');"></div>
+                        <p>headphone under$10</p>
+                        <div class="box-image1" style="background-image: url('mouse.jpg');"></div>
+                        <p>headphone under$10</p>
+                    </div>
+                    <div class="box2">
+                        <div class="box-image1" style="background-image: url('keyboard.jpg');"></div>
+                        <p>headphone under$10</p>
+                        <div class="box-image1" style="background-image: url('chairs.jpg');"></div>
+                        <p>headphone under$10</p>
+                    </div>
+                </div>
+            </div>
+            <a class="see-more">See More</a>
+        </div>
+        <div class="box">
+            <div class="box-content1">
+                <h2>Shop deals in Fashion</h2>
+                <div class="main-box2">
+                    <div class="box2">
+                        <div class="box-image1" style="background-image: url('jeans.jpg');"></div>
+                        <p>jeans under $50</p>
+                        <div class="box-image1" style="background-image: url('skirt.jpg');"></div>
+                        <p>Skirt under $50</p>
+                    </div>
+                    <div class="box2">
+                        <div class="box-image1" style="background-image: url('tshirt.jpg');"></div>
+                        <p>Tshirt under $50</p>
+                        <div class="box-image1" style="background-image: url('shoes.jpg');"></div>
+                        <p>Shoes under $50</p>
+                    </div>
+                </div>
+            </div>
+            <a class="see-more">See More</a>
+        </div>
+
+
+        <div class="box">
+            <div class="box-content">
+                <h2>Groceries and Toys</h2>
+                <div class="box-image" style="background-image: url('box4.jpg');"></div>
+                <a>See More</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="box-content">
+                <h2>Home Refresh Ideas</h2>
+                <div class="box-image" style="background-image: url('tap_image.jpg');"></div>
+                <a>See More</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- shop section END -->
+
+    <!-- footer section start -->
+
+    <footer>
+        <div class="foot-panel1">
+            <div class="panel-text">
+                <p id="see-text">See personalized recommendations</p>
+                <button>Sign in</button>
+                <p id="p-cust">New customer?<a> Start here</a></p>
+            </div>
+        </div>
+
+    
+        <div class="foot-panel-top">
+            Back to top
+        </div>
+
+        <div class="getToKnow">
+         <!-- <ul> -->
+            <div class="getToKnow-list">
+                <p>Get to Know Us</p>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>About Amazon</li>
+                <li>Investor Relations</li>
+                <li>Amazon Devices</li>
+                <li>Amazon Science</li>
+           </div>
+            <div class="getToKnow-list">
+                <p>Get to Know Us</p>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>About Amazon</li>
+                <li>Investor Relations</li>
+                <li>Amazon Devices</li>
+                <li>Amazon Science</li>
+            </div>
+            <div class="getToKnow-list">
+                <p>Get to Know Us</p>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>About Amazon</li>
+                <li>Investor Relations</li>
+                <li>Amazon Devices</li>
+                <li>Amazon Science</li>
+           </div>
+            <div class="getToKnow-list">
+                <p>Get to Know Us</p>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>About Amazon</li>
+                <li>Investor Relations</li>
+                <li>Amazon Devices</li>
+                <li>Amazon Science</li>
+           </div>
+        </div>
+
+    <div class="foot-amazon">
+        <div class="amazon-logo2"></div>
+          
+        <div class="foot2-amazon">
+          <div class="foot-eng">
+            <div class="foot-worldLogo">
+                <i class="fa-solid fa-globe" style="color: white;"></i>
+            </div>
+            <div class="worldLogo-text">
+                <select>
+                    <option>English</option>
+                </select>   
+            </div>
+          </div>
+          
+          <div class="foot-dollar"><p>$ USD - U.S. Dollar</p></div>
+          
+          <div class="foot-state">
+            <div class="foot-stateflag"></div>
+            <div class="foot-stateName">India</div>
+          </div>
+        </div>
+        </div>
+
+        <div class="copyright">
+           <a>Conditions of Use</a>
+           <a>Privacy Notice</a>
+           <a>Your Ads Privacy Choices </a>
+
+           <div style="font-size: 0.85rem;">© 1996-2023, Amazon.com, Inc. or its affiliates</div>
+        </div>
+    </footer>
+
+
+  <script src="amazon_script.js"></script>
+</body>
+
+</html>
